@@ -4,7 +4,7 @@ import { useConfig } from "nextra-theme-docs";
 export const Head = () => {
   const { asPath, defaultLocale, locale } = useRouter();
   const { frontMatter } = useConfig();
-  const baseUrl = "https://docs.inkonchain.com";
+  const baseUrl = "https://docs.warponchain.com";
   const url =
     baseUrl + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
   const title =
