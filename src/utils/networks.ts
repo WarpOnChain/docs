@@ -4,15 +4,15 @@ export type NetworkType = "mainnet" | "sepolia";
 
 export const networkParams = {
   mainnet: {
-    chainId: "0xdef1", // 57073 in hexadecimal
+    chainId: "(COMING SOON)", // (COMING SOON) in hexadecimal
     chainName: "Warp Mainnet",
     nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
+      name: "WarpOnChain",
+      symbol: "WARP",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-gel.inkonchain.com"],
-    blockExplorerUrls: ["https://explorer.inkonchain.com/"],
+    rpcUrls: ["(COMING SOON)"],
+    blockExplorerUrls: ["(COMING SOON)"],
   },
   sepolia: {
     chainId: "61791", // 763373
