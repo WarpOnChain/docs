@@ -1,8 +1,8 @@
 [![Twitter](https://img.shields.io/twitter/follow/inkonchain)](https://x.com/inkonchain)
 
-# InkChain Documentation App
+# WarpOnChain Documentation App
 
-An advanced, streamlined documentation platform built with Next.js and Nextra for InkChain.
+An advanced, streamlined documentation platform built with Next.js and Nextra for WarpOnChain.
 
 ## 🚀 Build & Run
 
@@ -55,7 +55,7 @@ Our CI/CD setup utilizes GitHub Actions to run automated checks on every pull re
 * **js-lint**: Ensures proper JavaScript code formatting with ESLint.
 * **md-lint**: Checks Markdown code formatting with Remark.
 * **format**: Enforces consistent code style with Prettier.
-* **spell-check**: Uses CSpell to verify correct spelling in the documentation. For any unique terms (e.g., "InkChain"), add them to the [`./cspell/project-words.txt`](./cspell/project-words.txt) file to whitelist.
+* **spell-check**: Uses CSpell to verify correct spelling in the documentation. For any unique terms (e.g., "WarpOnChain"), add them to the [`./cspell/project-words.txt`](./cspell/project-words.txt) file to whitelist.
 
 ## 🌐 Feature Branch Deployment
 
