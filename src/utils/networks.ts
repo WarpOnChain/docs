@@ -15,15 +15,15 @@ export const networkParams = {
     blockExplorerUrls: ["https://explorer.inkonchain.com/"],
   },
   sepolia: {
-    chainId: "0xba5ed", // 763373
+    chainId: "61791", // 763373
     chainName: "Warp Sepolia",
     nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
+      name: "Warp Chain Sepolia",
+      symbol: "tWARP",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-gel-sepolia.inkonchain.com"],
-    blockExplorerUrls: ["https://explorer-sepolia.inkonchain.com"],
+    rpcUrls: ["https://sepolia.rpc.warponchain.com"],
+    blockExplorerUrls: ["https://sepolia.warpscan.org"],
   },
 };
 
