@@ -150,7 +150,7 @@ contract DeployScript is Script {
 # Load environment variables
 source .env
 
-# Deploy to InkSepolia Testnet
+# Deploy to warpsepolia Testnet
 forge script script/Deploy.s.sol:DeployScript --rpc-url $RPC_URL --broadcast --verify
 ```
 
@@ -178,7 +178,7 @@ optimizer = true
 optimizer_runs = 200
 
 [rpc_endpoints]
-inksepolia = "${INKSEPOLIA_RPC_URL}"
+warpsepolia = "${warpsepolia_RPC_URL}"
 ```
 
 ## Next Steps

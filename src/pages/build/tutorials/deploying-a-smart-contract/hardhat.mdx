@@ -82,18 +82,18 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.19",
   networks: {
-    inksepolia: {
+    warpsepolia: {
       url: process.env.INK_SEPOLIA_URL || "",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
   },
   etherscan: {
     apiKey: {
-      inksepolia: process.env.BLOCKSCOUT_API_KEY,
+      warpsepolia: process.env.BLOCKSCOUT_API_KEY,
     },
     customChains: [
       {
-        network: "inksepolia",
+        network: "warpsepolia",
         chainId: 763373,
         urls: {
           apiURL: "https://sepolia.warpscan.org/api",
@@ -160,7 +160,7 @@ main()
 Deploy to Warp Sepolia testnet:
 
 ```bash
-npx hardhat run scripts/deploy.js --network inksepolia
+npx hardhat run scripts/deploy.js --network warpsepolia
 ```
 
 ## Verifying Your Contract
@@ -168,7 +168,7 @@ npx hardhat run scripts/deploy.js --network inksepolia
 After deployment, verify your contract:
 
 ```bash
-npx hardhat verify --network inksepolia <DEPLOYED_CONTRACT_ADDRESS>
+npx hardhat verify --network warpsepolia <DEPLOYED_CONTRACT_ADDRESS>
 ```
 
 ## Interacting with Your Contract
@@ -176,7 +176,7 @@ npx hardhat verify --network inksepolia <DEPLOYED_CONTRACT_ADDRESS>
 You can use Hardhat Console to interact with your deployed contract:
 
 ```bash
-npx hardhat console --network inksepolia
+npx hardhat console --network warpsepolia
 ```
 
 ```javascript

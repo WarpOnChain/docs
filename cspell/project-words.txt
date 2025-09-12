@@ -116,8 +116,8 @@ multisignatures
 baselayer
 Smol
 foundryup
-inksepolia
-INKSEPOLIA
+warpsepolia
+WARPSEPOLIA
 commoditizes
 multichain
 Routescan
