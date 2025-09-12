@@ -5,7 +5,7 @@ export type NetworkType = "mainnet" | "sepolia";
 export const networkParams = {
   mainnet: {
     chainId: "0xdef1", // 57073 in hexadecimal
-    chainName: "Ink Mainnet",
+    chainName: "Warp Mainnet",
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",
@@ -16,7 +16,7 @@ export const networkParams = {
   },
   sepolia: {
     chainId: "0xba5ed", // 763373
-    chainName: "Ink Sepolia",
+    chainName: "Warp Sepolia",
     nativeCurrency: {
       name: "Ether",
       symbol: "ETH",

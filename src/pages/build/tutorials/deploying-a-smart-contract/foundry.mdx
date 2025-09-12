@@ -58,7 +58,7 @@ Create a new contract and put it in the file <CopyableCode code="src/InkContract
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 contract InkContract {
-    string public greeting = "Hello, Ink!";
+    string public greeting = "Hello, Warp!";
 
     function setGreeting(string memory _greeting) public {
         greeting = _greeting;
@@ -83,7 +83,7 @@ contract InkContractTest is Test {
     }
 
     function test_DefaultGreeting() public view {
-        assertEq(ink.greeting(), "Hello, Ink!");
+        assertEq(ink.greeting(), "Hello, Warp!");
     }
 
     function test_SetGreeting() public {

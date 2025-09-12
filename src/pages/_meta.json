@@ -37,7 +37,7 @@
   "header_status": {
     "title": "Status Page",
     "type": "page",
-    "href": "https://status.inkonchain.com/",
+    "href": "https://status.warpdao.org//",
     "newWindow": true
   },
   "header_faucet": {
@@ -53,16 +53,16 @@
     "title": "General",
     "display": "children"
   },
-  "+++ Build on Ink": {
+  "+++ Build on Warp": {
     "title": "",
     "type": "separator"
   },
-  "--- Build On Ink": {
-    "title": "Build On Ink",
+  "--- Build On Warp": {
+    "title": "Build On Warp",
     "type": "separator"
   },
   "build": {
-    "title": "Build on Ink",
+    "title": "Build on Warp",
     "display": "children"
   },
   "+++ Tools": {
@@ -89,16 +89,16 @@
     "title": "Useful Information",
     "display": "children"
   },
-  "+++ Work with Ink": {
+  "+++ Work with Warp": {
     "title": "",
     "type": "separator"
   },
-  "--- Work with Ink": {
-    "title": "Work with Ink",
+  "--- Work with Warp": {
+    "title": "Work with Warp",
     "type": "separator"
   },
   "work-with-ink": {
-    "title": "Work with Ink",
+    "title": "Work with Warp",
     "display": "children",
     "theme": {
       "pagination": true
@@ -112,7 +112,7 @@
   },
   "status": {
     "title": "Status Page",
-    "href": "https://status.inkonchain.com/",
+    "href": "https://status.warpdao.org//",
     "newWindow": true,
     "theme": {
       "pagination": false

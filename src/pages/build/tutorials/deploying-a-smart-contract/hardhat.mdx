@@ -54,7 +54,7 @@ Create a new file in the `contracts` directory:
 pragma solidity ^0.8.19;
 
 contract InkContract {
-    string public greeting = "Hello, Ink!";
+    string public greeting = "Hello, Warp!";
 
     function setGreeting(string memory _greeting) public {
         greeting = _greeting;
@@ -124,7 +124,7 @@ describe("InkContract", function () {
     const contract = await InkContract.deploy();
     await contract.deployed();
 
-    expect(await contract.greeting()).to.equal("Hello, Ink!");
+    expect(await contract.greeting()).to.equal("Hello, Warp!");
   });
 });
 ```
@@ -157,7 +157,7 @@ main()
   });
 ```
 
-Deploy to Ink Sepolia testnet:
+Deploy to Warp Sepolia testnet:
 
 ```bash
 npx hardhat run scripts/deploy.js --network inksepolia

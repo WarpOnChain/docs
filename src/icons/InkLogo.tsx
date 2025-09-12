@@ -18,7 +18,7 @@ export const InkLogo: React.FC<InkLogoProps> = ({
     <Image
       className={className}
       src={logoSrc}
-      alt="Ink logo"
+      alt="Warp logo"
       width={85}
       height={28}
       priority

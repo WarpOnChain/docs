@@ -1,10 +1,10 @@
 # Onchain Clients
 
-## Ethers.js - Instructions for Connecting to Ink
+## Ethers.js - Instructions for Connecting to Warp
 
 Ethers.js documentation: [https://docs.ethers.org/v6/](https://docs.ethers.org/v6/)
 
-To connect to Ink by instantiating a new `ethers.js` `JsonRpcProvider` object with an RPC URL of Ink's testnet, follow the steps below:
+To connect to Warp by instantiating a new `ethers.js` `JsonRpcProvider` object with an RPC URL of Warp's testnet, follow the steps below:
 
 1. **Install ethers.js**: Ensure you have `ethers.js` v6 installed in your project. If not, you can install it using npm or yarn.
 
@@ -18,7 +18,7 @@ To connect to Ink by instantiating a new `ethers.js` `JsonRpcProvider` object wi
    yarn add ethers@6
    ```
 
-2. **Instantiate a JsonRpcProvider**: Use the following code snippet to create a new `JsonRpcProvider` object with the RPC URL of Ink's testnet.
+2. **Instantiate a JsonRpcProvider**: Use the following code snippet to create a new `JsonRpcProvider` object with the RPC URL of Warp's testnet.
 
    ```javascript
    import { ethers } from 'ethers';
@@ -27,7 +27,7 @@ To connect to Ink by instantiating a new `ethers.js` `JsonRpcProvider` object wi
    const provider = new ethers.JsonRpcProvider(rpcUrl, 763373);
    ```
 
-3. **Using the Provider**: You can now use the `provider` to interact with Ink's testnet. For example, you can fetch the current block number or interact with smart contracts deployed on the testnet.
+3. **Using the Provider**: You can now use the `provider` to interact with Warp's testnet. For example, you can fetch the current block number or interact with smart contracts deployed on the testnet.
 
    ```javascript
    // previous code
@@ -37,9 +37,9 @@ To connect to Ink by instantiating a new `ethers.js` `JsonRpcProvider` object wi
 
 ### Example: Fetching the Current Block Number
 
-The following code snippet demonstrates how to fetch and print the current block number from Ink's testnet:
+The following code snippet demonstrates how to fetch and print the current block number from Warp's testnet:
 
-## Viem - Instructions for Connecting to Ink
+## Viem - Instructions for Connecting to Warp
 
 Viem documentation: [https://viem.sh/docs/introduction](https://viem.sh/docs/introduction)
 
@@ -55,7 +55,7 @@ Viem documentation: [https://viem.sh/docs/introduction](https://viem.sh/docs/int
    yarn add viem
    ```
 
-2. **Instantiate a Public Client**: Use the following code snippet to create a new `Public Client` object with the Ink Sepolia testnet.
+2. **Instantiate a Public Client**: Use the following code snippet to create a new `Public Client` object with the Warp Sepolia testnet.
    ```javascript
    import { createPublicClient, http } from 'viem'
    import { inkSepolia } from 'viem/chains'
@@ -66,7 +66,7 @@ Viem documentation: [https://viem.sh/docs/introduction](https://viem.sh/docs/int
    })
    ```
 
-3. **Consuming Actions**: You can now interact with Ink's chain! Here we are getting the current block number.
+3. **Consuming Actions**: You can now interact with Warp's chain! Here we are getting the current block number.
 
    ```javascript
    // previous code

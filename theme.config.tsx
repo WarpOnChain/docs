@@ -76,8 +76,8 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate:
         asPath === "/"
-          ? "Ink Docs - The Official Developer Guide for Ink"
-          : "%s | Ink Docs",
+          ? "Warp Docs - The Official Developer Guide for Warp"
+          : "%s | Warp Docs",
     };
   },
 };

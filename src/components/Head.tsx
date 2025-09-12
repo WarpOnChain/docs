@@ -8,10 +8,10 @@ export const Head = () => {
   const url =
     baseUrl + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
   const title =
-    frontMatter.title || "Ink Docs - The Official Developer Guide for Ink";
+    frontMatter.title || "Warp Docs - The Official Developer Guide for Warp";
   const description =
     frontMatter.description ||
-    "Comprehensive documentation for Ink, a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain. Learn how to build, integrate, and leverage Ink's DeFi capabilities.";
+    "Comprehensive documentation for Warp, a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain. Learn how to build, integrate, and leverage Warp's DeFi capabilities.";
   const ogImage = frontMatter.image || `${baseUrl}/logo/build-the-future.png`;
 
   return (
@@ -28,7 +28,7 @@ export const Head = () => {
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:width" content="1080" />
       <meta property="og:image:height" content="1080" />
-      <meta property="og:site_name" content="Ink Documentation" />
+      <meta property="og:site_name" content="Warp Documentation" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
