@@ -67,7 +67,7 @@ const config: DocsThemeConfig = {
         rel="noopener noreferrer"
         aria-label="Documentation Status"
       >
-        🎉 Mainnet is LIVE! 🎉
+        🎉 Mainnet Coming SOON! 🎉
       </a>
     ),
   },
