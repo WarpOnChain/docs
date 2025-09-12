@@ -14,9 +14,9 @@ module.exports = {
       },
       colors: {
         magic: {
-          purple: "#7132F5",
-          'semi-deep-purple': '#855BFB',
-          'deep-purple': "#2B1463",
+          purple: "#085abd",
+          'semi-deep-purple': '#2fafec',
+          'deep-purple': "#072246",
           black: "#101114",
           white: "#F0EFFF",
           'soft-pink': "#F7D2FE",
