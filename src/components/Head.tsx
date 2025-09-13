@@ -36,8 +36,8 @@ export const Head = () => {
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={description} />
       <meta property="twitter:image" content={ogImage} />
-      <meta property="twitter:site" content="@inkonchain" />
-      <meta property="twitter:creator" content="@inkonchain" />
+      <meta property="twitter:site" content="@warponchain" />
+      <meta property="twitter:creator" content="@warponchain" />
 
       {/* Favicon */}
       <link rel="icon" href="/img/icons/favicon.ico" type="image/x-icon" />
