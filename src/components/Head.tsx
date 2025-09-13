@@ -11,7 +11,7 @@ export const Head = () => {
     frontMatter.title || "Warp Docs - The Official Developer Guide for Warp";
   const description =
     frontMatter.description ||
-    "Comprehensive documentation for Warp, a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain. Learn how to build, integrate, and leverage Warp's DeFi capabilities.";
+    "Comprehensive documentation for Warp, a cutting-edge Layer 3 (L3) blockchain built on Arbitrum's Superchain. Learn how to build, integrate, and leverage Warp's DeFi capabilities.";
   const ogImage = frontMatter.image || `${baseUrl}/logo/build-the-future.png`;
 
   return (

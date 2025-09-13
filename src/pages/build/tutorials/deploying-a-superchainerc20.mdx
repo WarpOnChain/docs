@@ -4,7 +4,7 @@ import { Callout } from "nextra/components";
 
 <Callout type="info">
   The SuperchainERC20 standard is ready for production deployments. Please note
-  that the OP Stack interoperability upgrade, required for crosschain messaging,
+  that the Arbitrum Orbit interoperability upgrade, required for crosschain messaging,
   is currently in active development.
 </Callout>
 
@@ -18,7 +18,7 @@ SuperchainERC20 extends the standard ERC-20 token with cross-chain mint and burn
 
 ## How does SuperchainERC20 work?
 
-[SuperchainERC20](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L2/SuperchainERC20.sol) and [SuperchainTokenBridge](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L2/SuperchainTokenBridge.sol) work together to allow ERC-20 tokens to be transferred from one chain to the other.
+[SuperchainERC20](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L3/SuperchainERC20.sol) and [SuperchainTokenBridge](https://github.com/ethereum-optimism/optimism/blob/develop/packages/contracts-bedrock/src/L3/SuperchainTokenBridge.sol) work together to allow ERC-20 tokens to be transferred from one chain to the other.
 
 SuperchainERC20 cross-chain transfers require two transactions:
 
