@@ -49,7 +49,7 @@ function App() {
 }
 ```
 
-Note: Warp Kit classes are prefixed with `ink:` and can be customized using CSS variables instead of Tailwind classes. They should be imported first so that your own custom classes are taking precedence.
+Note: Warp Kit classes are prefixed with `warp:` and can be customized using CSS variables instead of Tailwind classes. They should be imported first so that your own custom classes are taking precedence.
 
 ## Key Features
 
@@ -70,10 +70,10 @@ By default, Warp Kit provides a couple of themes already in the stylesheet:
 - Neo (`neo-theme`)
 - Morpheus (`morpheus-theme`)
 
-To specify which theme to use, add the `ink:THEME_ID` to your document root:
+To specify which theme to use, add the `warp:THEME_ID` to your document root:
 
 ```tsx
-<html class="ink:dark-theme">
+<html class="warp:dark-theme">
   ...
 ```
 
@@ -81,7 +81,7 @@ If you want to programmatically set this value, you can use the `useInkThemeClas
 
 ```tsx
 const theme = getMyCurrentTheme();
-useInkThemeClass(theme === "light" ? "ink:neo-theme" : "ink:dark-theme");
+useInkThemeClass(theme === "light" ? "warp:neo-theme" : "warp:dark-theme");
 ```
 
 ### Custom Theme

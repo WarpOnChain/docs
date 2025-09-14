@@ -19,8 +19,8 @@ module.exports = {
           'deep-purple': "#072246",
           black: "#101114",
           white: "#F0EFFF",
-          'soft-pink': "#F7D2FE",
-          'link-purple': '#B794FF',
+          'soft-pink': "#085abd",
+          'link-purple': '#085abd',
         },
         'ink-grey': {
           100: '#F3F4F6',
